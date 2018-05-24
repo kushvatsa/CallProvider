@@ -15,7 +15,7 @@ import com.kushapps.providercore.IgnoreMapping
  * Created by Kush Vatsa
  */
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
-class Call : Entity() {
+public class Call : Entity() {
 
     @FieldMapping(columnName = BaseColumns._ID, physicalType = FieldMapping.PhysicalType.Long)
     var id: Long = 0

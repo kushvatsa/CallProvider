@@ -5,4 +5,4 @@ import java.lang.annotation.RetentionPolicy
 
 @Target(AnnotationTarget.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-annotation class IgnoreMapping
+public annotation class IgnoreMapping

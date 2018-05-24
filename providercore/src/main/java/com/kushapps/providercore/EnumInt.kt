@@ -1,3 +1,3 @@
 package com.kushapps.providercore
 
-interface EnumInt
+public interface EnumInt

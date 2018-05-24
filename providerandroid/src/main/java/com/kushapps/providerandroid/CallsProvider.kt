@@ -11,7 +11,7 @@ import com.kushapps.providercore.Data
  * Created by Kush Vatsa
  */
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
-class CallsProvider(context: Context) : AbstractProvider(context) {
+public class CallsProvider(context: Context) : AbstractProvider(context) {
 
     /**
      * Get all calls.
